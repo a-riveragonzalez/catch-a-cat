@@ -53,7 +53,7 @@ h2 {
   left: 31%;
 }
 
-.col-3 {
+.col-34 {
   position: absolute;
   /*   background-color: purple; */
   width: 25%;
@@ -61,7 +61,7 @@ h2 {
   left: 51%;
 }
 
-.col-4 {
+.col-43 {
   position: absolute;
   /*   background-color: green; */
   width: 20%;
@@ -72,35 +72,13 @@ h2 {
 /* ------------------------- */
 
 .ball {
-  position: absolute;
+  position: relative;
   height: 18px;
   width: 18px;
+  left: 50%;
   border-radius: 50%;
   z-index: 5;
-}
-
-.ball-1 {
-  top: 5px;
-  left: 100px;
   background-color: blue;
-}
-
-.ball-2 {
-  top: 5px;
-  left: 90px;
-  background-color: red;
-}
-
-.ball-3 {
-  top: 5px;
-  left: 90px;
-  background-color: green;
-}
-
-.ball-4 {
-  top: 5px;
-  left: 95px;
-  background-color: purple;
 }
 
 /* ------------------------- */

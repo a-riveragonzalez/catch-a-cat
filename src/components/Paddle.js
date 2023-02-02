@@ -5,6 +5,7 @@ export default function Paddle() {
   let paddle = document.querySelector(".paddle");
   let xCord = 700;
 
+  // lets paddle move left to right
   window.addEventListener("keydown", (event) => {
     if (event.key === "ArrowRight" || event.keyCode === 68) {
       xCord += 15;
